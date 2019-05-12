@@ -1,2 +1,2 @@
 # vl-java
-Java client for verification layer.
+Java client for verification layer..
