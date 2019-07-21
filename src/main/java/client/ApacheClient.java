@@ -7,8 +7,13 @@ import org.apache.http.client.methods.HttpPost;
 import org.apache.http.client.utils.URIBuilder;
 import org.apache.http.entity.ContentType;
 import org.apache.http.entity.StringEntity;
+import org.apache.http.entity.mime.MultipartEntityBuilder;
+import org.apache.http.entity.mime.content.FileBody;
 import org.apache.http.impl.client.CloseableHttpClient;
+import org.apache.http.util.EntityUtils;
 
+import java.io.File;
+import java.io.IOException;
 import java.net.URI;
 
 public class ApacheClient {
@@ -56,6 +61,26 @@ public class ApacheClient {
             ex.printStackTrace();
             return null;
         }
+        return response;
+    }
+
+    public CloseableHttpResponse upload(File file, String userId, String endpoint) throws Exception {
+        HttpPost httpPost = new HttpPost(getUrı(endpoint));
+        httpPost.setHeader("Accept", "application/json");
+        MultipartEntityBuilder builder = MultipartEntityBuilder.create();
+        builder.addPart("file", new FileBody(file));
+        builder.addTextBody("userId", userId, ContentType.TEXT_PLAIN);
+        httpPost.setEntity(builder.build());
+        CloseableHttpResponse response = httpClient.execute(httpPost);
+        int httpStatus = response.getStatusLine().getStatusCode();
+        String responseMsg = EntityUtils.toString(response.getEntity(), "UTF-8");
+
+        // If the returned HTTP response code is not in 200 series then
+        // throw the error
+        if (httpStatus < 200 || httpStatus > 300) {
+            throw new IOException("HTTP " + httpStatus + " - Error during upload of file: " + responseMsg);
+        }
+
         return response;
     }
 

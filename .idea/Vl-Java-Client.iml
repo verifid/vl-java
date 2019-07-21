@@ -124,5 +124,6 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.glassfish.hk2:hk2-locator:2.5.0-b32" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: javax.validation:validation-api:1.1.0.Final" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.glassfish.jersey.core:jersey-client:2.25.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.httpcomponents:httpmime:4.5.9" level="project" />
   </component>
 </module>
