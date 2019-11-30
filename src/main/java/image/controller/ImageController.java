@@ -1,34 +1,33 @@
-package user.controller;
+package image.controller;
 
 import client.ApacheClient;
 import com.google.gson.Gson;
+import image.models.ImageUploadRequest;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
-import user.models.User;
-import user.models.UserVerifyRequest;
 import util.AppParams;
 
-public class UserController {
+public class ImageController {
 
     private ApacheClient client;
     private Gson gson = new Gson();
 
-    public UserController() {
+    public ImageController() {
         CloseableHttpClient closeableHttpClient = HttpClients.createDefault();
         client = new ApacheClient(closeableHttpClient, AppParams.BASE_URL, AppParams.BASE_SCHEME);
     }
 
-    public UserController(String baseScheme, String baseUrl) {
+    public ImageController(String baseScheme, String baseUrl) {
         CloseableHttpClient closeableHttpClient = HttpClients.createDefault();
         client = new ApacheClient(closeableHttpClient, baseUrl, baseScheme);
     }
 
-    public CloseableHttpResponse sendUserData(User user) {
-        return client.post(AppParams.SEND_USER_DATA_ENDPOINT, gson.toJson(user));
+    public CloseableHttpResponse uploadIdentity(ImageUploadRequest imageUploadRequest) {
+        return client.post(AppParams.UPLOAD_ID_ENDPOINT, gson.toJson(imageUploadRequest));
     }
 
-    public CloseableHttpResponse verify(UserVerifyRequest userverifyReq) {
-        return client.post(AppParams.VERIFY_USER_ENDPOINT, gson.toJson(userverifyReq));
+    public CloseableHttpResponse uploadProfile(ImageUploadRequest imageUploadRequest) {
+        return client.post(AppParams.UPLOAD_PROFILE_ENDPOINT, gson.toJson(imageUploadRequest));
     }
 }

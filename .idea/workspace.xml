@@ -5,9 +5,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/Vl-Java-Client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Vl-Java-Client.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/client/ApacheClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/client/ApacheClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/user/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/AppParams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/AppParams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/user/controller/ImageControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/user/controller/ImageControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/user/controller/UserControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/user/controller/UserControllerTest.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,82 +18,6 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/user/controller/UserControllerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="530">
-              <caret line="95" selection-start-line="95" selection-end-line="95" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/user/controller/ImageControllerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/util/AppParams.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="530">
-              <caret line="59" selection-start-line="59" selection-end-line="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/user/controller/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/client/ApacheClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="66" column="39" selection-start-line="66" selection-start-column="39" selection-end-line="66" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/user/models/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -105,31 +31,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/main/java/user/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/user/UserController.java" />
-        <option value="$PROJECT_DIR$/src/test/java/user/UserControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/user/models/UserResponse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/client/FlexPair.java" />
-        <option value="$PROJECT_DIR$/src/main/java/client/CustomRequest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/client/CustomClientAbstraction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/client/CustomAbstractClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/client/CustomResponse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/client/ClientType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/client/ClientFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/client/CustomClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/util/AppParams.java" />
-        <option value="$PROJECT_DIR$/src/main/java/user/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/src/test/java/user/controller/UserControllerTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/client/ApacheClient.java" />
-      </list>
-    </option>
-  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -137,107 +38,13 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Vl-Java-Client" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="293" />
     <option name="y" value="53" />
     <option name="width" value="1390" />
     <option name="height" value="1000" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Vl-Java-Client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Vl-Java-Client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Vl-Java-Client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Vl-Java-Client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Vl-Java-Client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Vl-Java-Client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Vl-Java-Client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Vl-Java-Client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Vl-Java-Client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Vl-Java-Client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Vl-Java-Client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Vl-Java-Client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Vl-Java-Client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Vl-Java-Client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Vl-Java-Client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Vl-Java-Client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Vl-Java-Client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Vl-Java-Client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Vl-Java-Client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Vl-Java-Client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-    </panes>
-  </component>
+  <component name="ProjectId" id="1T12zNJzWYdU6OGYZITsE3z38E0" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -245,18 +52,28 @@
     <property name="extract.method.default.visibility" value="private" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.12077296" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="user.controller" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="image.models" />
       <recent name="user.models" />
+      <recent name="image.controller" />
       <recent name="user" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean in" />
+      <command value="mvn clean install" />
+      <command value="mvn clean compile" />
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -270,8 +87,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserControllerTest.testSendDataFail">
-    <configuration name="UserControllerTest.testSendDataFail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ImageControllerTest.testUploadProfileFail">
+    <configuration name="ImageControllerTest.testUploadIdentity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Vl-Java-Client" />
       <extension name="coverage">
         <pattern>
@@ -280,24 +97,56 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="user.controller" />
-      <option name="MAIN_CLASS_NAME" value="user.controller.UserControllerTest" />
-      <option name="METHOD_NAME" value="testSendDataFail" />
+      <option name="MAIN_CLASS_NAME" value="user.controller.ImageControllerTest" />
+      <option name="METHOD_NAME" value="testUploadIdentity" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserControllerTest.testSendDataParameter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ImageControllerTest.testUploadIdentityFail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Vl-Java-Client" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="user.models.*" />
+          <option name="PATTERN" value="user.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="user.controller" />
-      <option name="MAIN_CLASS_NAME" value="user.controller.UserControllerTest" />
-      <option name="METHOD_NAME" value="testSendDataParameter" />
+      <option name="MAIN_CLASS_NAME" value="user.controller.ImageControllerTest" />
+      <option name="METHOD_NAME" value="testUploadIdentityFail" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImageControllerTest.testUploadProfileFail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Vl-Java-Client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="user.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="user.controller" />
+      <option name="MAIN_CLASS_NAME" value="user.controller.ImageControllerTest" />
+      <option name="METHOD_NAME" value="testUploadProfileFail" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImageControllerTest.testUploadProfileSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Vl-Java-Client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="user.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="user.controller" />
+      <option name="MAIN_CLASS_NAME" value="user.controller.ImageControllerTest" />
+      <option name="METHOD_NAME" value="testUploadProfileSuccess" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -321,9 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserControllerTest.testSendDataFail" />
+        <item itemvalue="JUnit.ImageControllerTest.testUploadProfileFail" />
+        <item itemvalue="JUnit.ImageControllerTest.testUploadProfileSuccess" />
+        <item itemvalue="JUnit.ImageControllerTest.testUploadIdentityFail" />
         <item itemvalue="JUnit.UserControllerTest.testSendDataSuccess" />
-        <item itemvalue="JUnit.UserControllerTest.testSendDataParameter" />
+        <item itemvalue="JUnit.ImageControllerTest.testUploadIdentity" />
       </list>
     </recent_temporary>
   </component>
@@ -342,44 +193,16 @@
       <workItem from="1563649252496" duration="6320000" />
       <workItem from="1563688021083" duration="9981000" />
       <workItem from="1563711111362" duration="8615000" />
-      <workItem from="1563721376304" duration="1149000" />
+      <workItem from="1563721376304" duration="1943000" />
+      <workItem from="1563997578143" duration="2896000" />
+      <workItem from="1564258952056" duration="601000" />
+      <workItem from="1565450770210" duration="201000" />
+      <workItem from="1572613544824" duration="4217000" />
+      <workItem from="1575116837063" duration="144000" />
+      <workItem from="1575116998926" duration="1071000" />
+      <workItem from="1575118105668" duration="2742000" />
     </task>
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="UserControllerTest_testSendDataSuccess - 2019.07.21 at 15h 57m 51s.xml">
-      <configuration name="UserControllerTest.testSendDataSuccess" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserControllerTest_testSendDataSuccess - 2019.07.21 at 15h 58m 22s.xml">
-      <configuration name="UserControllerTest.testSendDataSuccess" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserControllerTest_testSendDataSuccess - 2019.07.21 at 16h 01m 48s.xml">
-      <configuration name="UserControllerTest.testSendDataSuccess" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserControllerTest_testSendDataSuccess - 2019.07.21 at 16h 03m 32s.xml">
-      <configuration name="UserControllerTest.testSendDataSuccess" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserControllerTest_testSendDataSuccess - 2019.07.21 at 16h 09m 29s.xml">
-      <configuration name="UserControllerTest.testSendDataSuccess" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserControllerTest_testSendDataSuccess - 2019.07.21 at 16h 10m 19s.xml">
-      <configuration name="UserControllerTest.testSendDataSuccess" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserControllerTest_testSendDataSuccess - 2019.07.21 at 16h 28m 34s.xml">
-      <configuration name="UserControllerTest.testSendDataSuccess" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserControllerTest_testSendDataSuccess - 2019.07.21 at 17h 09m 13s.xml">
-      <configuration name="UserControllerTest.testSendDataSuccess" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserControllerTest_testSendDataSuccess - 2019.07.21 at 17h 20m 08s.xml">
-      <configuration name="UserControllerTest.testSendDataSuccess" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserControllerTest_testSendDataFail - 2019.07.21 at 17h 45m 40s.xml">
-      <configuration name="UserControllerTest.testSendDataFail" configurationId="JUnit" />
-    </history-entry>
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27797000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -390,301 +213,25 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26342005" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32937366" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39956802" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32937366" />
-      <window_info anchor="bottom" id="Docker" order="7" weight="0.32937366" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32937366" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32937366" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" weight="0.32982844" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" />
-      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32982844" />
-      <window_info anchor="right" id="Bean Validation" order="10" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26065302" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" order="0" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.32937366" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.32937366" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.39956802" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Docker" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32937366" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32937366" />
-      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32982844" />
-      <window_info anchor="right" id="Bean Validation" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Maven" order="7" visible="true" weight="0.32982844" />
-      <window_info anchor="right" id="Capture Analysis" order="8" />
-      <window_info anchor="right" id="Palette&#9;" order="9" />
-      <window_info anchor="right" id="Database" order="10" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Vl_Java_Client$UserControllerTest_testSendDataSuccess.ic" NAME="UserControllerTest.testSendDataSuccess Coverage Results" MODIFIED="1563713836069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>user.controller.*</FILTER>
     </SUITE>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="18">
-            <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/client/CustomRequest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/client/CustomClientAbstraction.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.9/httpclient-4.5.9.jar!/org/apache/http/impl/client/HttpClients.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-          <folding>
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.9/httpclient-4.5.9.jar!/org/apache/http/client/methods/HttpPost.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-          <folding>
-            <element signature="e#413#414#0" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/client/CustomAbstractClient.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/client/ClientFactory.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/client/ClientType.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/user/models/UserResponse.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/client/FlexPair.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.9/httpclient-4.5.9.jar!/org/apache/http/impl/execchain/HttpResponseProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.9/httpclient-4.5.9.jar!/org/apache/http/client/methods/CloseableHttpResponse.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.11/httpcore-4.4.11.jar!/org/apache/http/HttpResponse.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.9/httpclient-4.5.9.jar!/org/apache/http/impl/client/CloseableHttpClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="60" column="33" selection-start-line="60" selection-start-column="33" selection-end-line="60" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/client/CustomResponse.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/client/CustomClient.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/user/models/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/user/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/AppParams.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/user/controller/ImageControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/user/controller/UserControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="95" selection-start-line="95" selection-end-line="95" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/client/ApacheClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="66" column="39" selection-start-line="66" selection-start-column="39" selection-end-line="66" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>Vl-Java-Client</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
